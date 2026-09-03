@@ -64,3 +64,35 @@ nav {
 nav > ul > li {
   padding: 0.5rem;
 }
+
+/* Hero Section */
+.hero-section {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+}
+.hero-section_container > h1 {
+  display: flex;
+  font-size: 2rem;
+}
+.hero-section_container > p {
+  display: flex;
+  font-size: 1.4rem;
+  padding: 1rem;
+}
+.hero-section_container {
+  display: flex;
+  padding: 1rem;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.hero-section_container a {
+  background-color: #363636;
+  padding: 0.5rem;
+  border-radius: 2px;
+  color: white;
+}
