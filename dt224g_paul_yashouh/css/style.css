@@ -96,3 +96,12 @@ nav > ul > li {
   border-radius: 2px;
   color: white;
 }
+
+/* Introduction */
+.introduction-container {
+  text-align: center;
+  margin-block: 1rem;
+}
+.introduction-container > p {
+  padding: 0.5rem;
+}
