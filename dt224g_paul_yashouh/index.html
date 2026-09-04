@@ -5,19 +5,19 @@
   <meta charset="UTF-8">
   <link rel="stylesheet" href="/dt224g_paul_yashouh/css/style.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Norrgläntan</title>
+  <title>Välkomen till Norrgläntan</title>
 </head>
 
 <body>
   <header>
     <div class="logo-container">
-      <p>Norrgläntan</p>
+      <p>NORRGLÄNTAN</p>
       <a class="logo-img" href="#">
         <img src="/dt224g_paul_yashouh/bilder/logotyp_svart.png" alt="norrgläntan-logo">
       </a>
     </div>
-    <nav>
-      <ul>
+    <nav class="header-nav">
+      <ul class="header-nav_list">
         <li><a href="#uptäck">Upptäck</a></li>
         <li><a href="#aktivitet">Aktiviteter</a></li>
         <li><a href="#boende">Boende</a></li>
@@ -36,54 +36,67 @@
       </div>
     </section>
     <article class="introduction-container">
-      <h2>Nära til Naturen</h2>
-      <p>I Norrgläntan är naturen alltid nära. Här möts skogar, sjöar och berg i ett landskap som bjuder in till
-        upplevelser året
-        runt. Vandra längs slingrande leder, ta dig ut på vattnet eller hitta en lugn plats och njut av omgivningarna.
-      </p>
-      <p>Oavsett om du söker äventyr eller bara vill komma bort en stund finns det alltid något nytt att upptäcka.</p>
+      <div class="introduction-body">
+        <h2>Nära till Naturen</h2>
+        <div class="introduction-para">
+          <p>I Norrgläntan är naturen alltid nära. Här möts skogar, sjöar och berg i ett
+            landskap som bjuder in till
+            upplevelser året
+            runt. Vandra längs slingrande leder, ta dig ut på vattnet eller hitta en lugn plats och njut av
+            omgivningarna.
+          </p>
+          <p>Oavsett om du söker äventyr eller bara vill komma bort en stund finns det alltid något nytt att upptäcka.
+          </p>
+        </div>
+      </div>
     </article>
     <section class="activities-container" id="aktivitet">
       <h2>Upplev Norrgläntan</h2>
-      <article class="card">
-        <img src="/dt224g_paul_yashouh/bilder/vandra.jpg" alt="vandra">
-        <div class="card-body">
-          <h3>Vandra</h3>
-          <p>Följ leder genom skog och över öppna höjder. Här finns vandringar för både korta utflykter och längre dagar
-            ute i
-            naturen.</p>
-        </div>
-      </article>
-      <article class="card">
-        <img src="/dt224g_paul_yashouh/bilder/paddla.jpg" alt="paddla">
-        <div class="card-body">
-          <h3>Paddla</h3>
-          <p>Ta dig ut på Norrgläntans sjöar och upptäck landskapet från vattnet. Hitta din egen vik eller stanna till
-            vid
-            någon av
-            rastplatserna längs stranden.</p>
-        </div>
-      </article>
-      <article class="card">
-        <img src="/dt224g_paul_yashouh/bilder/upptack.jpg" alt="uptäck">
-        <div class="card-body">
-          <h3>Upptäck</h3>
-          <p>Ibland är det bästa äventyret det som inte är planerat. Utforska skogar och utsiktsplatser och upptäck dina
-            egna
-            favoriter längs vägen.</p>
-        </div>
-      </article>
+      <div class="card-wrapper">
+        <article class="card">
+          <img src="/dt224g_paul_yashouh/bilder/vandra.jpg" alt="vandra">
+          <div class="card-body">
+            <h3>Vandra</h3>
+            <p>Följ leder genom skog och över öppna höjder. Här finns vandringar för både korta utflykter och längre
+              dagar
+              ute i
+              naturen.</p>
+          </div>
+        </article>
+        <article class="card">
+          <img src="/dt224g_paul_yashouh/bilder/paddla.jpg" alt="paddla">
+          <div class="card-body">
+            <h3>Paddla</h3>
+            <p>Ta dig ut på Norrgläntans sjöar och upptäck landskapet från vattnet. Hitta din egen vik eller stanna till
+              vid
+              någon av
+              rastplatserna längs stranden.</p>
+          </div>
+        </article>
+        <article class="card">
+          <img src="/dt224g_paul_yashouh/bilder/upptack.jpg" alt="uptäck">
+          <div class="card-body">
+            <h3>Upptäck</h3>
+            <p>Ibland är det bästa äventyret det som inte är planerat. Utforska skogar och utsiktsplatser och upptäck
+              dina
+              egna
+              favoriter längs vägen.</p>
+          </div>
+        </article>
+      </div>
     </section>
     <section class="planera" id="planera">
-      <h3>Planera ditt besök</h3>
-      <div class="planera-body">
-        <p>Oavsett om du söker äventyr eller bara vill komma bort en stund finns det alltid något nytt att uptäcka.</p>
-        <p>I Norrgläntan är naturen alltid nära. Här möts skogar, sjöar coh berg i ett landskap som bjuder in till
-          upplevelser året
-          runt. Vandra längs slingrande leder, ta dig ut på vattnet eller hitta en lugn plats och njut av omgivningarna.
-        </p>
+      <div class="planer-container">
+        <div class="planera-body">
+          <h3>Planera ditt besök</h3>
+          <p class="planera-para">Norrgläntan har något att erbjuda under hela året. Här hittar du boenden nära naturen
+            och bra
+            utgångspunkter för
+            områdets aktiviteter. Börja planera ditt besök och hitta det som passar dig.
+          </p>
+        </div>
       </div>
-      <a href="#planera">Planera ditt besök</a>
+      <a class="planera-link" href="#planera">Planera ditt besök</a>
     </section>
   </main>
   <footer>
@@ -91,10 +104,12 @@
       <a href="#">
         <img class="footer-logo" src="/dt224g_paul_yashouh/bilder/logotyp_svart.png" alt="norrgläntan-logo">
       </a>
-      <h3>NORRGLÄNTAN</h3>
-      <p class="footer-para">
-        Naturupplevelser året runt.
-      </p>
+      <div class="footer-logo_para">
+        <h3>NORRGLÄNTAN</h3>
+        <p class="footer-para">
+          Naturupplevelser året runt.
+        </p>
+      </div>
     </div>
     <div class="footer-body">
       <div class="footer-kontakt">
